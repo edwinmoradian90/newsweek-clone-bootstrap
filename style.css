@@ -130,6 +130,10 @@ table {
     border-spacing: 0;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 /*genrel classes*/
 .light-blue {
     background-color: #f4f5f6;
@@ -147,6 +151,14 @@ table {
     color: black !important;
 }
 
+.f-14 {
+    font-size: 14px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
 /*classes*/
 
 .page-container {
@@ -160,4 +172,23 @@ table {
 
 .nav-link:hover {
     color: #f72210 !important;
+}
+
+.category {
+    color: black;
+    background-color: #c2d4d7;
+}
+
+.category:hover {
+    color: #c2d4d7;
+    background-color: #333333;
+    text-decoration: none;
+}
+
+.culture {
+    height: 475px;
+}
+
+.culture_2 {
+    height: 408px;
 }
