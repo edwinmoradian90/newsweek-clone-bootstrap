@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,7 +17,7 @@
     <title>Bootstrap Project</title>
   </head>
   <body class="light-blue">
-    <div class="page-container mx-auto white">
+    <div class="container-fluid mx-auto white">
       <header>
         <div class="page-header orange"></div>
         <nav class="navbar navbar-expand-lg navbar-light border-bottom p-0">
@@ -93,7 +94,7 @@
           </div>
         </nav>
       </header>
-      <main class="container-fluid py-3 px-4">
+      <main>
         <section class="row">
           <!--
 
@@ -101,7 +102,7 @@
             ONE 
 
           -->
-          <div class="col sticky-bottom">
+          <div class="col col-md col-sm col-lg col-xl sticky-bottom">
             <div class="block-title pb-2 roboto text-secondary">
               FEATURED STORIES
             </div>
@@ -109,7 +110,7 @@
             <article class="pb-4">
               <a href="#">
                 <img
-                  class="w-100"
+                  class="img-fluid"
                   src="https://d.newsweek.com/en/full/1523806/lurbin-pasita-contreras.jpg?w=397&h=265&q=90&f=c8fad88c2d54ff78355346f42a371029"
                   alt=""
                 />
@@ -226,7 +227,7 @@
 
           -->
 
-          <div class="col-5">
+          <div class="col-5 col-md-5 col-sm-5 ">
             <div class="block-title d-block pb-2 roboto text-secondary">
               TOP STORY
             </div>
@@ -258,7 +259,7 @@
             <div class="culture w-50 pr-2 float-left light-blue">
               <img
                 class="w-100"
-                src="https://d.newsweek.com/en/full/1523566/cul-map-fashion-00-use-banner.jpg?w=397&h=265&f=6e6dc176b5debf8bfb261e7d38d7027c"
+                src="https://d.newsweek.cresponsive container bootstrap 4om/en/full/1523566/cul-map-fashion-00-use-banner.jpg?w=397&h=265&f=6e6dc176b5debf8bfb261e7d38d7027c"
                 alt=""
               />
               <div class="py-3 px-2">
@@ -525,7 +526,7 @@
 
           -->
 
-          <div class="col">
+          <div class="col col-sm sol-md">
             <div class="block-title pb-2 roboto text-secondary">OPINION</div>
 
             <ul class="unstyled-list">
@@ -704,34 +705,34 @@
         </section>
         
         <section class="magazine py-2">
-          <div class="d-flex flex-row">
-            <article class="d-flex flex-sm-3 px-3 flex-column"><img class="pointer" src="https://d.newsweek.com/en/full/1530990/october-04-2019.jpg?w=290&h=387&q=90&f=8d9a946387c8b7c1bd00124356d8989f" alt="">
+          <div class="d-flex flex-row row">
+            <article class="d-flex px-3 flex-column col-sm-12"><img class="pointer" src="https://d.newsweek.com/en/full/1530990/october-04-2019.jpg?w=290&h=387&q=90&f=8d9a946387c8b7c1bd00124356d8989f" alt="">
               <a class="d-flex justify-content-center p-2 bg-light-grey roboto" href="#">SEE ALL FEATURES   ></a>
             </article>
-            <div class="w-100 h-100">
+            <div>
               <div class="d-flex justify-content-center px-3 pb-2 mb-3 border-bottom col-12 roboto light-black f-19">
                 <span></span>
                 IN THE MAGAZINE
               </div>
-              <div class="d-flex">
-                <article class="col-sm-4">
-                  <img class="w-100 h-100 mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+              <div class="d-flex row">
+                <article class="col-sm-12 col-md-12">
+                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
                   </div>
                   <h5><a class="roboto black" href="#">Dramatic Photos Capture How Humans Have Changed the Earth</a></h5>
                 </article>
-                <article class="col-sm-4">
-                  <img class="w-100 h-100 mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+                <article class="col-md-12">
+                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
                   </div>
                   <h5><a class="roboto black" href="#">Dramatic Photos Capture How Humans Have Changed the Earth</a></h5>
                 </article>
-                <article class="col-sm-4">
-                  <img class="w-100 h-100 mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+                <article class="col-md-12">
+                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
@@ -743,7 +744,7 @@
           </div>
 
           <div class="row-section row d-flex py-4">
-            <article class="col-3">
+            <article class="col-sm-12 col-md-12">
               <a href="#">
                 <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1529291/per-lexisnexis-01-690638815-banner.jpg?w=466&h=311&l=79&t=50&q=90&f=c6185f94ece2d3355f16885089cdd8c7" alt="">
               </a>
@@ -753,7 +754,7 @@
               </div>
               <h5><a class="roboto black" href="#">When LexisNexis Makes a Mistake, You Pay For It</a></h5>
             </article>    
-            <article class="col-3">
+            <article class="col-sm-12 col-md-12">
               <a href="#">
                 <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1529291/per-lexisnexis-01-690638815-banner.jpg?w=466&h=311&l=79&t=50&q=90&f=c6185f94ece2d3355f16885089cdd8c7" alt="">
               </a>
@@ -763,7 +764,7 @@
               </div>
               <h5><a class="roboto black" href="#">When LexisNexis Makes a Mistake, You Pay For It</a></h5>
             </article>    
-            <article class="col-3">
+            <article class="col-sm-12 col-md-12">
               <a href="#">
                 <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1529291/per-lexisnexis-01-690638815-banner.jpg?w=466&h=311&l=79&t=50&q=90&f=c6185f94ece2d3355f16885089cdd8c7" alt="">
               </a>
@@ -773,9 +774,9 @@
               </div>
               <h5><a class="roboto black" href="#">When LexisNexis Makes a Mistake, You Pay For It</a></h5>
             </article>    
-            <article class="col-3">
+            <article class="col-sm-12 col-md-12">
               <a href="#">
-                <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1529291/per-lexisnexis-01-690638815-banner.jpg?w=466&h=311&l=79&t=50&q=90&f=c6185f94ece2d3355f16885089cdd8c7" alt="">
+                <img class="mb-2 pointer w-100" src="https://d.newsweek.com/en/full/1529291/per-lexisnexis-01-690638815-banner.jpg?w=466&h=311&l=79&t=50&q=90&f=c6185f94ece2d3355f16885089cdd8c7" alt="">
               </a>
               <div class="mb-2">
                 <span class="px-2 orange c-white p-1 f-16 roboto">DOWNTIME</span>
@@ -797,7 +798,7 @@
         <section class="editors-pick">
           <div class="d-flex justify-content-center roboto f-19 pb-2 mb-3 border-bottom">EDITOR'S PICK</div>
           <div class="row pb-4">
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -810,7 +811,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -823,7 +824,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -836,7 +837,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -851,7 +852,7 @@
             </article>
           </div>
           <div class="row">
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -864,7 +865,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -877,7 +878,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -890,7 +891,7 @@
                 Trump appears to have put his electoral stock fully in the gun-rights crowd, and at a point when the politics of gun control are shifting for the first time in decades.
               </div>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-12 col-md-6 col-lg-3">
               <a href="#">
                 <img class="w-100" src="https://d.newsweek.com/en/full/1531507/president-trump-arrives-back-white-house-after-trip-new-york-united-nations-general-assembly.jpg?w=397&h=265&f=6a414123c14252883ca58ff8f1559b80" alt="">
               </a>
@@ -918,7 +919,7 @@
           <div class="d-flex justify-content-center roboto f-19 pb-2 mb-3 border-bottom">FEATURED SLIDESHOWS</div>
           <div class="row pb-4">
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -929,7 +930,7 @@
               </a>
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -940,7 +941,7 @@
               </a>
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -954,7 +955,7 @@
           </div>
           <div class="row pb-4">
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -965,7 +966,7 @@
               </a>
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -976,7 +977,7 @@
               </a>
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-sm-12 col-md-4">
               <a href="#">
                 <img class="w-100 pb-3" src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" alt="">
               </a>
@@ -990,15 +991,31 @@
           </div>
         </section>
 
+        <!--
+
+          U.S
+
+        -->
+
         <section class="us">
           <div class="roboto c-orange border-top pt-4 pb-3">
             <h4 class="bold">
             U.S.
             </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
+            <div class="d-flex flex-wrap">
+              <div class="col-sm-12 col-md-4 p-0">
                 <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
+                  <img class="img-fluid w-100 p-0" src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
+                </a>
+                <a class="black" href="#">
+                  <h4 class="bold pb-sm-2">
+                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
+                  </h4>
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-4 p-0">
+                <a href="#">
+                  <img class="img-fluid w-100" src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
                 </a>
                 <a class="black" href="#">
                   <h4 class="bold">
@@ -1006,17 +1023,7 @@
                   </h4>
                 </a>
               </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
+              <div class="col-sm-12 col-md-4 p-0">
                 <ul>
                   <li class="d-flex border-bottom pb-3">
                     <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
@@ -1339,11 +1346,11 @@
 
         -->
 
-        <section class="d-flex py-5 border-top border-bottom">
+        <section class="d-flex py-5 border-top">
           <div class="col-8 pl-0">
             <div class="c-orange roboto pl-0 pb-2">SUBSCRIBE</div>
             <div class="subscribe-left bg-light-grey p-4 d-flex">
-              <div class="h-50">
+              <div>
                 <img src="https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&q=95&f=9ebb28c380cf4a6557a4cf4d18d55d2a" alt="">
                 <img class="overlayed-image" src="https://d.newsweek.com/en/full/1530990/october-04-2019.jpg?w=170&q=95&f=8b92e658aff6a3e8b4d133564ee1fc37" alt="">
               </div>
@@ -1371,6 +1378,52 @@
           </div>
         </section>
       </main>
+
+        <footer class="p-4 border-top container-fluid py-3 px-4">
+          <div class="d-flex justify-content-between border-bottom pb-3">
+            <div class="d-flex f-12 p-0">
+              <img src="./assets/images/newsweek-logo.png" alt="">
+              <p class="f-12 mb-0">© 2019 NEWSWEEK</p>
+            </div>
+            <ul>
+              <li>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-tumblr"></i>
+                <i class="fa fa-linkedin"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links d-flex row">
+            <ul class="d-flex mt-3 flex-wrap col-7">
+              <li class="px-3 border-right h-25"><a href="#">About Us</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Corrections</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Contact Us</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Editorial Guidelines</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Advertise</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Copyright</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Terms & Conditions</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Privacy Policy</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Cookie Policy</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Terms of Sale</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Archive</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Announcements</a></li>
+              <li class="px-3 border-right h-25"><a href="#">Consent preferences</a></li>
+            </ul>
+            <div class="d-flex mt-3 col-5">
+              <span>Editions:</span>
+              <ul class="d-flex flex-wrap">
+                <li class="px-3 border-right h-25"><a href="#">U.S</a></li>
+                <li class="px-3 border-right h-25"><a href="#">Chinese</a></li>
+                <li class="px-3 border-right h-25"><a href="#">Japanese</a></li>
+                <li class="px-3 border-right h-25"><a href="#">Pakistan</a></li>
+                <li class="px-3 border-right h-25"><a href="#">Russian</a></li>
+                <li class="px-3 border-right h-25"><a href="#">Armenian</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
     </div>
 
     <!--

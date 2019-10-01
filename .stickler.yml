@@ -1,0 +1,7 @@
+linters:
+  stylelint:
+    ignore: "box-model,ids,order-alphabetical"
+    config: "stylelint.config.js"
+    fixer: true
+fixers:
+  enable: true
