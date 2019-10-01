@@ -7,17 +7,18 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/css-reset.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Bootstrap Project</title>
   </head>
   <body class="light-blue">
-    <div class="container-fluid mx-auto white">
+    <div class="page-container mx-auto white">
       <header>
         <div class="page-header orange"></div>
         <nav class="navbar navbar-expand-lg navbar-light border-bottom p-0">
@@ -94,7 +95,7 @@
           </div>
         </nav>
       </header>
-      <main>
+      <main class="p-4">
         <section class="row">
           <!--
 
@@ -102,7 +103,7 @@
             ONE 
 
           -->
-          <div class="col col-md col-sm col-lg col-xl sticky-bottom">
+          <div class="col-xs-12 col-xs-push-12 col-md col-sm col-lg col-xl sticky-bottom">
             <div class="block-title pb-2 roboto text-secondary">
               FEATURED STORIES
             </div>
@@ -227,7 +228,7 @@
 
           -->
 
-          <div class="col-5 col-md-5 col-sm-5 ">
+      <div class="col-xs-12 col-md-5 col-sm-5 ">
             <div class="block-title d-block pb-2 roboto text-secondary">
               TOP STORY
             </div>
@@ -704,35 +705,35 @@
           </div>
         </section>
         
-        <section class="magazine py-2">
-          <div class="d-flex flex-row row">
-            <article class="d-flex px-3 flex-column col-sm-12"><img class="pointer" src="https://d.newsweek.com/en/full/1530990/october-04-2019.jpg?w=290&h=387&q=90&f=8d9a946387c8b7c1bd00124356d8989f" alt="">
+        <section class="magazine py-3">
+          <div class="d-flex flex-row row mx-auto">
+            <article class="d-flex flex-column col-sm-12"><img class="pointer" src="https://d.newsweek.com/en/full/1530990/october-04-2019.jpg?w=290&h=387&q=90&f=8d9a946387c8b7c1bd00124356d8989f" alt="">
               <a class="d-flex justify-content-center p-2 bg-light-grey roboto" href="#">SEE ALL FEATURES   ></a>
             </article>
-            <div>
-              <div class="d-flex justify-content-center px-3 pb-2 mb-3 border-bottom col-12 roboto light-black f-19">
+            <div class="row">
+              <div class="px-0 d-flex justify-content-center border-bottom col-12 roboto light-black f-19">
                 <span></span>
                 IN THE MAGAZINE
               </div>
               <div class="d-flex row">
-                <article class="col-sm-12 col-md-12">
-                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+                <article class="col-xs-12 col-sm-12 col-md-12">
+                  <img class="mb-2 pointer w-100" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
                   </div>
                   <h5><a class="roboto black" href="#">Dramatic Photos Capture How Humans Have Changed the Earth</a></h5>
                 </article>
-                <article class="col-md-12">
-                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+                <article class="col-xs-12 col-md-12">
+                  <img class="mb-2 pointer w-100" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
                   </div>
                   <h5><a class="roboto black" href="#">Dramatic Photos Capture How Humans Have Changed the Earth</a></h5>
                 </article>
-                <article class="col-md-12">
-                  <img class="mb-2 pointer" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
+                <article class="col-xs-12 col-md-12">
+                  <img class="mb-2 pointer w-100" src="https://d.newsweek.com/en/full/1528101/fe-anthropocene-01.jpg?w=466&h=311&q=90&f=b865e2814d95b55d2831e7faee0b2828" alt="">
                   <div class="mb-2">
                     <span class="px-2 orange c-white p-1 f-16 roboto">FEATURES</span>
                     <span class="roboto c-orange">WORLD</span>
@@ -1008,7 +1009,7 @@
                   <img class="img-fluid w-100 p-0" src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
                 </a>
                 <a class="black" href="#">
-                  <h4 class="bold pb-sm-2">
+                  <h4 class="bold pt-2 ">
                   MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
                   </h4>
                 </a>
@@ -1018,297 +1019,12 @@
                   <img class="img-fluid w-100" src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
                 </a>
                 <a class="black" href="#">
-                  <h4 class="bold">
+                  <h4 class="bold pt-2">
                   MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
                   </h4>
                 </a>
               </div>
               <div class="col-sm-12 col-md-4 p-0">
-                <ul>
-                  <li class="d-flex border-bottom pb-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex border-bottom py-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex pt-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="us">
-          <div class="roboto c-orange border-top pt-4 pb-3">
-            <h4 class="bold">
-            U.S.
-            </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <ul>
-                  <li class="d-flex border-bottom pb-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex border-bottom py-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex pt-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="us">
-          <div class="roboto c-orange border-top pt-4 pb-3">
-            <h4 class="bold">
-            U.S.
-            </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <ul>
-                  <li class="d-flex border-bottom pb-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex border-bottom py-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex pt-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="us">
-          <div class="roboto c-orange border-top pt-4 pb-3">
-            <h4 class="bold">
-            U.S.
-            </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <ul>
-                  <li class="d-flex border-bottom pb-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex border-bottom py-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex pt-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="us">
-          <div class="roboto c-orange border-top pt-4 pb-3">
-            <h4 class="bold">
-            U.S.
-            </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <ul>
-                  <li class="d-flex border-bottom pb-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex border-bottom py-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                  <li class="d-flex pt-3">
-                    <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
-                    <div class="ml-3">
-                      <a class="black" href="#">Family Say Teen Was 'Outed' by Cyberbullies Before Killing Himself
-
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="us">
-          <div class="roboto c-orange border-top pt-4 pb-3">
-            <h4 class="bold">
-            U.S.
-            </h4>
-            <div class="d-flex">
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
-                <a href="#">
-                  <img src="https://d.newsweek.com/en/full/1531510/bernie-sanders-sexism-msnbc-warren.jpg?w=397&h=265&f=105418f368423e3c7bf945e318d142cc" alt="">
-                </a>
-                <a class="black" href="#">
-                  <h4 class="bold">
-                  MSNBC Guest Says 'Sexism' Is Motivating Support for Sanders Over Warren
-                  </h4>
-                </a>
-              </div>
-              <div class="col-4 pl-0">
                 <ul>
                   <li class="d-flex border-bottom pb-3">
                     <a href="#"><img src="https://d.newsweek.com/en/full/1531495/hands-smartphone.jpg?w=135&h=90&f=df2f972b149c0b8bc4e8dd4bf1f44739" alt=""></a>
