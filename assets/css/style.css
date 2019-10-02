@@ -1,5 +1,9 @@
 /*genrel classes*/
 
+.border-red {
+    border: red solid 2px;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -109,6 +113,7 @@
 .page-header {
     width: 100%;
     height: 95px;
+    background-color: #e44322;
 }
 
 .nav-link:hover {
@@ -171,11 +176,23 @@
     max-height: 301px;
 }
 
+
+.bottom-image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .overlayed-image {
     position: relative;
-    top: -212px;
-    left: 80px;
+    top: 5vw;
+    left: -20vw;
 }
+
+.text-container {
+    height: auto;
+}
+
 
 .footer-image {
     background-image: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf);
@@ -186,9 +203,92 @@
     height: 301px;
 }
 
+
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     h4 {
         font-size: 20px;
+    }
+
+    .page-header {
+        height: 50px;
+    }
+
+    .page-header>img {
+        height: 50px
+    }
+
+    .page-header>a:nth-child(4) {
+        color: #ffffff;
+        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        float: right;
+        margin-top: 15px;
+    }
+
+    .page-header>a:nth-child(3) {
+        background-color: #ffffff;
+        padding: 6px 3px;
+        font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+        color: #e44322;
+        font-weight: 700;
+        font-size: 14px;
+        float: right;
+        margin-top: 9px;
+    }
+
+    .page-header>a:nth-child(2)>img {
+        height: 50px;
+        float: right;
+    }
+
+    .subscribe-left {
+        max-height: 1000px;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-image {
+        max-width: 100%;
+        width: 100%;
+        height: 160px;
+    }
+
+    .newsletter-bottom {
+        text-align: center;
+        height: auto;
+    }
+
+    .img-container {
+        height: 300px;
+    }
+
+    .footer>div {
+        flex-direction: column;
+    }
+
+    .social-links li>i {
+        padding-right: 10px;
+        font-size: 22px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links ul {
+        width: 100%;
+    }
+
+    .footer-links ul li {
+        padding-right: 10px;
+    }
+
+    .footer-links ul li a {
+        color: #666666;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 }
