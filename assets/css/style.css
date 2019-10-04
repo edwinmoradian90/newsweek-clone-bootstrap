@@ -114,6 +114,10 @@
   width: 1310px;
 }
 
+.page.wrapper {
+  width: 1310px;
+}
+
 .page-header-mobile {
   width: 100%;
   height: 50px;
@@ -124,18 +128,29 @@
   color: #ffffff;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 15px;
+  margin-right: 20px;
+}
+
+.header-signin-button:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .header-subscribe-button {
   background-color: #ffffff;
-  padding: 6px 3px;
+  padding: 3px 6px;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   color: #e44322;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 9px;
+}
+
+.header-subscribe-button:hover {
+  text-decoration: none;
+  color: #e44322;
 }
 
 .page-header-desktop {
@@ -311,10 +326,6 @@
     font-size: 22px;
   }
 
-  .footer-links {
-    flex-direction: column;
-  }
-
   .footer-links ul {
     width: 100%;
   }
@@ -360,5 +371,15 @@
 @media only screen and (max-width: 1310px) {
   .page-container {
     max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1311px) {
+  .page-container {
+    max-width: 100%;
+  }
+
+  .page-wrapper {
+    width: 1310px;
   }
 }
