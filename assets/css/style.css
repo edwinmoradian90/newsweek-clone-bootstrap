@@ -1,4 +1,4 @@
-/*genrel classes*/
+/* genrel classes */
 
 .border-red {
   border: red solid 2px;
@@ -13,7 +13,7 @@
 }
 
 .white {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .bg-light-grey {
@@ -37,7 +37,7 @@
 }
 
 .light-black {
-  color: #333333;
+  color: #333;
 }
 
 .bg-light-grey:hover {
@@ -101,14 +101,14 @@
 
 .orange-button {
   background-color: #f72210;
-  color: #ffffff;
+  color: #fff;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   padding: 10px 10px 10px 12px;
 }
 
-/*classes*/
+/* classes */
 
 .page-container {
   width: 1310px;
@@ -125,7 +125,7 @@
 }
 
 .header-signin-button {
-  color: #ffffff;
+  color: #fff;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -135,11 +135,11 @@
 
 .header-signin-button:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-subscribe-button {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 3px 6px;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   color: #e44322;
@@ -170,7 +170,7 @@
 
 .category:hover {
   color: #c2d4d7;
-  background-color: #333333;
+  background-color: #333;
   text-decoration: none;
 }
 
@@ -199,7 +199,7 @@
 .sign-up {
   width: 100px;
   height: 38px;
-  background-color: #666666;
+  background-color: #666;
 }
 
 .top-title {
@@ -209,7 +209,7 @@
 
 .magazine > div > article > a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 18px;
 }
 
@@ -273,7 +273,7 @@
   }
 
   .page-header-mobile > a:nth-child(4) {
-    color: #ffffff;
+    color: #fff;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -282,7 +282,7 @@
   }
 
   .page-header-mobile > a:nth-child(3) {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 6px 3px;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     color: #e44322;
@@ -335,7 +335,7 @@
   }
 
   .footer-links ul li a {
-    color: #666666;
+    color: #666;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
   }
