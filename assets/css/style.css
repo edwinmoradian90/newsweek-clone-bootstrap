@@ -44,6 +44,10 @@
   background-color: #a8a8a8;
 }
 
+.f-12 {
+  font-size: 12px;
+}
+
 .f-14 {
   font-size: 14px !important;
 }
@@ -110,7 +114,31 @@
   width: 1310px;
 }
 
-.page-header {
+.page-header-mobile {
+  width: 100%;
+  height: 50px;
+  background-color: #e44322;
+}
+
+.header-signin-button {
+  color: #ffffff;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.header-subscribe-button {
+  background-color: #ffffff;
+  padding: 6px 3px;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  color: #e44322;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 9px;
+}
+
+.page-header-desktop {
   width: 100%;
   height: 95px;
   background-color: #e44322;
@@ -129,6 +157,12 @@
   color: #c2d4d7;
   background-color: #333333;
   text-decoration: none;
+}
+
+.input {
+  height: 20px;
+  width: 60px;
+  border: 0;
 }
 
 .culture {
@@ -185,13 +219,20 @@
 }
 
 .overlayed-image {
-  position: relative;
-  top: 5vw;
-  left: -20vw;
+  position: absolute;
+  top: 20px;
+  left: 40px;
 }
 
 .text-container {
   height: auto;
+}
+
+.img-container {
+  width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .footer-image {
@@ -212,11 +253,11 @@
     height: 50px;
   }
 
-  .page-header > img {
+  .page-header-mobile > img {
     height: 50px;
   }
 
-  .page-header > a:nth-child(4) {
+  .page-header-mobile > a:nth-child(4) {
     color: #ffffff;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -225,7 +266,7 @@
     margin-top: 15px;
   }
 
-  .page-header > a:nth-child(3) {
+  .page-header-mobile > a:nth-child(3) {
     background-color: #ffffff;
     padding: 6px 3px;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
@@ -236,7 +277,7 @@
     margin-top: 9px;
   }
 
-  .page-header > a:nth-child(2) > img {
+  .page-header-mobile > a:nth-child(2) > img {
     height: 50px;
     float: right;
   }
@@ -244,8 +285,6 @@
   .subscribe-left {
     max-height: 1000px;
     height: auto;
-    flex-direction: column;
-    text-align: center;
   }
 
   .footer-image {
@@ -300,6 +339,21 @@
   .culture_2 {
     max-height: 500px;
     height: 430px;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .footer-image {
+    height: 300px;
+  }
+
+  .newsletter-bottom {
+    height: 300px;
+    max-height: 300px;
+  }
+
+  .subscribe-left {
+    height: 300px;
   }
 }
 
