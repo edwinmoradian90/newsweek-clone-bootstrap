@@ -2,7 +2,7 @@
 
 ## Project for [microverse](https://www.microverse.org).
 
-### [View Demo](https://raw.githack.com/edwinmoradian90/newsweek-clone-bootstrap/features/index.html) | [View Code](https://github.com/edwinmoradian90/newsweek-clone-bootstrap)
+### [View Demo](https://raw.githack.com/edwinmoradian90/newsweek-clone-bootstrap/master/index.html) | [View Code](https://github.com/edwinmoradian90/newsweek-clone-bootstrap)
 
 # Screenshot
 
