@@ -1,18 +1,14 @@
 # **Using Bootstrap**
 
-## Project for [microverse](https://www.microverse.org).
+## About
+
+A mobile-responsive NewsWeek clone styled with Bootstrap 4.
 
 ### [View Demo](https://raw.githack.com/edwinmoradian90/newsweek-clone-bootstrap/master/index.html) | [View Code](https://github.com/edwinmoradian90/newsweek-clone-bootstrap)
 
 # Screenshot
 
 ![Newsweek clone](./assets/images/screenshot.png)
-
-# Objectives
-
-- Use Bootstrap 4 to position and build a clone of the [News Week](https://newsweek.com).
-- Become familiar with responsiveness in Bootstrap.
-- Make the site completely responsive using Bootstrap grid.
 
 # Built With
 
